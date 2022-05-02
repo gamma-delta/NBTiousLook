@@ -4,19 +4,19 @@ license="MIT"
 #issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
 [[mods]] #mandatory
 # The modid of the mod
-modId="templatemod" #mandatory
+modId="nbtiouslook" #mandatory
 version="${file.jarVersion}" #mandatory
-displayName="Template Mod" #mandatory
+displayName="NBTious Look" #mandatory
 logoFile="logo.png"
 credits="Credits!" #optional
 # A text field displayed in the mod UI
 authors="petrakat" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Template for my mods
+vago wanted this mod
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.templatemod]] #optional
+[[dependencies.nbtiouslook]] #optional
     # the modid of the dependency
     modId="forge" #mandatory
     # Does this dependency have to exist - if not, ordering below must be specified
@@ -28,7 +28,7 @@ Template for my mods
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 # Here's another dependency
-[[dependencies.templatemod]]
+[[dependencies.nbtiouslook]]
     modId="minecraft"
     mandatory=true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
